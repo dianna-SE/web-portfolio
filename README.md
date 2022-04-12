@@ -1,4 +1,4 @@
-# Project Title
+# MILK | MESSAGING WEBSITE
 
 One Paragraph of project description goes here
 
