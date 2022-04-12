@@ -30,6 +30,7 @@
   .work_card:hover {
     cursor: pointer;
     background-color: var(--first-color);
+    color: white;
     transition: .4s;
   }
   
@@ -85,6 +86,7 @@
     font-size: var(--small-font-size);
     color: black;
     margin-left: -1rem;
+    letter-spacing: 0.1rem;
   }
   
   .work-logo {

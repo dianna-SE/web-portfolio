@@ -88,7 +88,7 @@ function App() {
                 <h1 className='about_header1'>JUNIOR WEB DEVELOPER               
                 <button href='mailto:diannapham.opt@gmail.com' className='contact-button button'>CONTACT ME</button></h1>
                 <p className='about_paragraph'>
-                A SELF-TAUGHT DEVELOPER WITH A BACHELOR OF ARTS IN HUMAN DEVELOPMENT AND A PASSION FOR TECHNOLOGY, INNOVATION, AND ADVANCEMENT THROUGH DEVELOPMENT.
+                A SELF-TAUGHT DEVELOPER WITH A BACHELOR OF ARTS IN HUMAN DEVELOPMENT. PASSION FOR TECHNOLOGY, INNOVATION, AND ADVANCEMENT THROUGH DEVELOPMENT.
                 </p>
           </div>
 
@@ -143,7 +143,7 @@ function App() {
       <div className='skills_container container grid'>
             <div className='class skills_content-frontend'>
               <h3 className='skills_title'>
-                FRONT END DEVELOPMENT
+                FRONT END
               </h3>
 
               <div className='skills_box'>
@@ -178,6 +178,14 @@ function App() {
                         <h3 className='skills_name'>REACT</h3>
                         <span className='skills_level'></span>
                   </div>
+
+                  <div className='skills_group'>
+                      <div className='skills_data'>
+                        <HiBadgeCheck/>
+                      </div>
+                        <h3 className='skills_name'>REDUX</h3>
+                        <span className='skills_level'></span>
+                  </div>
               </div>
               </div>
             </div>
@@ -187,7 +195,7 @@ function App() {
       <div className='skills_container container grid'>
             <div className='class skills_content-frontend'>
               <h3 className='skills_title'>
-                BACK END DEVELOPMENT
+                BACK END
               </h3>
 
               <div className='skills_box'>
@@ -213,6 +221,14 @@ function App() {
                         <HiBadgeCheck/>
                       </div>
                         <h3 className='skills_name'>AWS</h3>
+                        <span className='skills_level'></span>
+                  </div>
+
+                  <div className='skills_group'>
+                      <div className='skills_data'>
+                        <HiBadgeCheck/>
+                      </div>
+                        <h3 className='skills_name'>NETLIFY</h3>
                         <span className='skills_level'></span>
                   </div>
 
@@ -274,17 +290,17 @@ function App() {
                   <img src='items/img/milk-messaging.jpg' alt ='' className='work_img'/>
                   <h3 className='work_title'>MILK | MESSAGING WEBSITE</h3>
                   <MdWork className='work_icon'/> 
-                  <span className='span_text'>REACTJS, REDUX, FIREBASE</span>
-                  <a className='work-link' href='https://milk-messaging.web.app/' target='blank'>CLICK TO VIEW<BsFillArrowRightCircleFill className='work-logo'/></a>
+                  <span className='span_text'>NODEJS, REDUX, FIREBASE</span>
+                  <a className='work-link' href='https://github.com/dianna-SE/milk-project' target='blank'>VIEW SOURCE<BsFillArrowRightCircleFill className='work-logo'/></a>
                   
               </div>
 
               <div className='work_card'>
                   <img src='items/img/maxres.jpg' alt ='' className='work_img'/>
-                  <h3 className='work_title'>HTML | JAVASCRIPT SIMULATION</h3>
+                  <h3 className='work_title'>GOOBLE | JAVASCRIPT SIMULATION</h3>
                   <MdWork className='work_icon'/> 
-                  <span className='span_text'>HTML, CSS, JAVASCRIPT, AWS</span>
-                  <a className='work-link' href='https://milk-messaging.web.app/' target='blank'>CLICK TO VIEW <BsFillArrowRightCircleFill className='work-logo'/></a>
+                  <span className='span_text'>HTML, CSS, JAVASCRIPT, NETLIFY</span>
+                  <a className='work-link' href='https://github.com/dianna-SE/gooble' target='blank'>VIEW SOURCE <BsFillArrowRightCircleFill className='work-logo'/></a>
               </div>
 
           </div>

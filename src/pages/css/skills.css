@@ -3,6 +3,7 @@
 .skills {
     margin-top: -2rem;
   }
+  
   .skills_container {
     row-gap: 2rem;
     padding-top: 0.5rem;
@@ -12,8 +13,11 @@
     background-color: var(--container-color);
     padding: 1.2rem;
     border-radius: 1.25rem;
-    margin: 4rem;
-    margin-top: -0.4rem;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   
   .skills_content-backend {
@@ -25,7 +29,7 @@
   }
   
   .skills_title {
-    font-size: 1.15rem;
+    font-size: 1.4rem;
     font-weight: var(--font-semibold);
     color: var(--first-color);
     text-align: center;

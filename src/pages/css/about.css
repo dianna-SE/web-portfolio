@@ -36,6 +36,8 @@
   
   .about_title {
     font-size: var(--medium-font-size);
+    display: flex;
+    justify-content: center;
   }
   
   .about_subtitle {
