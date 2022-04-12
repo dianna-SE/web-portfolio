@@ -1,0 +1,72 @@
+/* skills class */
+
+.skills {
+    margin-top: -2rem;
+  }
+  .skills_container {
+    row-gap: 2rem;
+    padding-top: 0.5rem;
+  }
+  
+  .skills_content-frontend {
+    background-color: var(--container-color);
+    padding: 1.2rem;
+    border-radius: 1.25rem;
+    margin: 4rem;
+    margin-top: -0.4rem;
+  }
+  
+  .skills_content-backend {
+    background-color: var(--container-color);
+    padding: 1.2rem;
+    border-radius: 1.25rem;
+    margin: 4rem;
+    margin-top: -4rem;
+  }
+  
+  .skills_title {
+    font-size: 1.15rem;
+    font-weight: var(--font-semibold);
+    color: var(--first-color);
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .skills_box {
+    display: flex;
+    justify-content: center;
+    column-gap: 2.5rem;
+  }
+  
+  .skills_group {
+    display: grid;
+    align-content: flex-start;
+    row-gap: 1rem;
+  }
+  
+  .skills_data {
+    display: flex;
+    justify-content: center;
+    column-gap: .5rem;
+  }
+  
+  .skills {
+    font-size: 1rem;
+    color: var(--first-color);
+  }
+  
+  .skills_name {
+    display: flex;
+    justify-content: center;
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+    line-height: 18px;
+  }
+  
+  .skills_level {
+    display: flex;
+    justify-content: center;
+    font-size: 0.8rem;
+    text-align: center;
+    letter-spacing: 0.2rem;
+  }

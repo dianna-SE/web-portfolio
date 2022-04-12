@@ -1,0 +1,103 @@
+/* services classes */
+.services_container { 
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    padding-top: 1rem;
+  }
+  
+  .services_card {
+    background-color: var(--container-color);
+    padding: 3rem 1.5rem 1.5rem;
+    border-radius: 1rem;
+  }
+  
+  .services_title {
+    font-size: var(--h3-font-size);
+    margin-bottom: 2.5rem;
+  }
+  
+  .services_button {
+    color: var(--first-color);
+    font-size: var(--small-font-size);
+    display: flex;
+    align-items: center;
+    column-gap: .40rem;
+    cursor: pointer;
+    letter-spacing: 0.2rem;
+  }
+  
+  .services_button:hover .services_icon {
+    transform: translateX(.25rem);
+  }
+  
+  .services_icon {
+    font-size: 1rem;
+    transition: .4s;
+  }
+  
+  /* allows a second page to popup*/
+  .services_modal {
+    position: fixed;
+    inset: 0;
+    background-color: hsla(var(--second-hue), 28%, 16%, .7);
+    padding: 2rem 1rem;
+    display: grid;
+    place-items: center;
+    visibility: hidden; 
+    transition: visibility 0.3s linear,opacity 0.3s linear;
+    place-items: center;
+    z-index: var(--z-modal);
+  }
+  
+  .services_modal-content {
+    position: relative;
+    background-color: var(--body-color);
+    padding: 4.5rem 1.5rem 2.5rem;
+    border-radius: 1.5rem;
+  }
+  
+  .services_modal-title, .services_modal-description {
+    text-align: center;
+  }
+  
+  .services_modal-title {
+    font-size: var(--h3-font-size);
+    color: var(--first-color);
+    margin-bottom: 1rem;
+  }
+  
+  .services_modal-description {
+    font-size: var(--small-font-size);
+    margin-bottom: 2rem;
+  }
+  
+  .services_modal-list {
+    display: grid;
+    row-gap: .75rem;
+  }
+  
+  .services_modal-item {
+    display: flex;
+    align-items: flex-start;
+    column-gap: .5rem;
+  }
+  
+  .services_modal-icon {
+    font-size: 1rem;
+    color: var(--first-color);
+  }
+  
+  .services_modal-info {
+    font-size: var(--normal-font-size);
+    letter-spacing: 0.05rem;
+  }
+  
+  .services_modal-close {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    font-size: 1.3rem;
+    color: var(--first-color);
+    cursor: pointer;
+  }
+  
