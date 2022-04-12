@@ -118,3 +118,7 @@
   .contact_form-area textarea {
     resize: none;
   }
+
+  .cont {
+    font-size: var(--small-font-size);
+  }

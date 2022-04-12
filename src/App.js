@@ -85,7 +85,8 @@ function App() {
           </h2>
 
           <div className='about_description1 container'>
-                <h1 className='about_header1'>JUNIOR WEB DEVELOPER               
+                <h1 className='about_header1'>JUNIOR WEB DEVELOPER        
+                       
                 <button href='mailto:diannapham.opt@gmail.com' className='contact-button button'>CONTACT ME</button></h1>
                 <p className='about_paragraph'>
                 A SELF-TAUGHT DEVELOPER WITH A BACHELOR OF ARTS IN HUMAN DEVELOPMENT. PASSION FOR TECHNOLOGY, INNOVATION, AND ADVANCEMENT THROUGH DEVELOPMENT.
