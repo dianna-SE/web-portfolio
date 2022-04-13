@@ -1,6 +1,6 @@
 # WEBSITE PORTFOLIO
 
-* [Website] (https://www.diannapham.com/)
+* [Website](https://www.diannapham.com/)
 * [Resume](https://github.com/dianna-SE/web-portfolio/files/8477303/phamdianna_resume.pdf)
 
 
