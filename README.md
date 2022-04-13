@@ -1,7 +1,7 @@
 # WEBSITE PORTFOLIO
 
-### Website: Website: https://www.diannapham.com/
-### Resume: [phamdianna_resume.pdf](https://github.com/dianna-SE/web-portfolio/files/8477303/phamdianna_resume.pdf)
+* [Website] (https://www.diannapham.com/)
+* [Resume](https://github.com/dianna-SE/web-portfolio/files/8477303/phamdianna_resume.pdf)
 
 
 Resume: [phamdianna_resume.pdf](https://github.com/dianna-SE/web-portfolio/files/8477301/phamdianna_resume.pdf)
