@@ -5,8 +5,10 @@
 ### [Resume](https://github.com/dianna-SE/web-portfolio/files/8477303/phamdianna_resume.pdf)
 
 
+
 ## Getting Started
 This website portfolio was created using HTML, CSS, JavaScript, and React. Designed to be viewable with a variety of devices (small, medium, large devices).
+
 
 ![web](https://user-images.githubusercontent.com/97206862/163062721-2f1d1f98-55a5-4a38-8613-17a8fb218999.png)
 
