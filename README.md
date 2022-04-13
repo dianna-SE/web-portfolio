@@ -31,8 +31,8 @@ This website was deployed using AWS services via Amplify. GitHub respository was
 
 ## Built With
 
-* [HTML] - Used to display features onto a website
-* [CSS] - Used to style website 
+* [HTML] - Used to display features onto a website.
+* [CSS] - Used to style website. 
 * [JavaScript](https://www.javascript.com/) - Used to program functions for player movement, timer, and sprite animations.
 * [React](https://reactjs.org/) - Used as the main application framework.
 * [AWS] (https://aws.amazon.com/) - Used to deploy website.
