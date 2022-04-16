@@ -1,7 +1,7 @@
 # WEBSITE PORTFOLIO
 
 ## Access Links
-### [Website](https://main.d2pf2m52yd8ad5.amplifyapp.com)
+### [Website](https://www.diannapham.com/)
 ### [Resume](https://github.com/dianna-SE/web-portfolio/files/8477303/phamdianna_resume.pdf)
 
 
