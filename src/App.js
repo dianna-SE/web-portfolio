@@ -41,10 +41,10 @@ function App() {
               <span className='home_greeting'> HELLO, I'M  </span>
 
               <h1 className='home_name name'> DIANNA PHAM </h1>
-              <h3 className='home_name developer'> JUNIOR WEB DEVELOPER </h3>
+              <h3 className='home_name developer'> FULL STACK DEVELOPER </h3>
 
               <div className='home_buttons'>
-                <a download='' href='/items/pdf/phamdianna_resume.pdf' className='button button--ghost'>
+                <a href='/items/pdf/phamdianna_resume.pdf' className='button button--ghost' download>
                   DOWNLOAD RESUME
                 </a>
                 <a href='#about' className='button'> ABOUT ME </a>
@@ -65,12 +65,6 @@ function App() {
                   <FaGithub/>
                 </a>
             </div>
-
-            <a href='#about' className='home_scroll'>
-              <CgArrowsScrollV />
-              
-              <span className='home_scroll-name'>SCROLL DOWN</span>
-            </a>
 
           </div>
         </section>
@@ -168,7 +162,23 @@ function App() {
                       <div className='skills_data'>
                         <HiBadgeCheck/>
                       </div>
+                        <h3 className='skills_name'>SASS</h3>
+                        <span className='skills_level'></span>
+                  </div>
+
+                  <div className='skills_group'>
+                      <div className='skills_data'>
+                        <HiBadgeCheck/>
+                      </div>
                         <h3 className='skills_name'>JAVASCRIPT</h3>
+                        <span className='skills_level'></span>
+                  </div>
+
+                  <div className='skills_group'>
+                      <div className='skills_data'>
+                        <HiBadgeCheck/>
+                      </div>
+                        <h3 className='skills_name'>VUEJS</h3>
                         <span className='skills_level'></span>
                   </div>
 
@@ -201,11 +211,27 @@ function App() {
 
               <div className='skills_box'>
 
+                <div className='skills_group'>
+                      <div className='skills_data'>
+                        <HiBadgeCheck/>
+                      </div>
+                        <h3 className='skills_name'>PYTHON</h3>
+                        <span className='skills_level'></span>
+                  </div>
+
                   <div className='skills_group'>
                       <div className='skills_data'>
                         <HiBadgeCheck/>
                       </div>
                         <h3 className='skills_name'>NODE JS</h3>
+                        <span className='skills_level'></span>
+                  </div>
+
+                  <div className='skills_group'>
+                      <div className='skills_data'>
+                        <HiBadgeCheck/>
+                      </div>
+                        <h3 className='skills_name'>DJANGO</h3>
                         <span className='skills_level'></span>
                   </div>
 
@@ -287,13 +313,13 @@ function App() {
 
 
           <div className='work_container container grid'>
+
               <div className='work_card'>
                   <img src='items/img/milk-messaging.jpg' alt ='' className='work_img'/>
                   <h3 className='work_title'>MILK | MESSAGING WEBSITE</h3>
                   <MdWork className='work_icon'/> 
                   <span className='span_text'>NODEJS, REDUX, FIREBASE</span>
                   <a className='work-link' href='https://github.com/dianna-SE/milk-project' target='blank'>VIEW SOURCE<BsFillArrowRightCircleFill className='work-logo'/></a>
-                  
               </div>
 
               <div className='work_card'>
@@ -302,6 +328,14 @@ function App() {
                   <MdWork className='work_icon'/> 
                   <span className='span_text'>HTML, CSS, JAVASCRIPT, NETLIFY</span>
                   <a className='work-link' href='https://github.com/dianna-SE/gooble' target='blank'>VIEW SOURCE <BsFillArrowRightCircleFill className='work-logo'/></a>
+              </div>
+
+              <div className='work_card'>
+                  <img src='items/img/myprofile.png' alt ='' className='work_img'/>
+                  <h3 className='work_title'>NOTES | MEDIA APP </h3>
+                  <MdWork className='work_icon'/> 
+                  <span className='span_text'>VUEJS, PYTHON, DJANGO</span>
+                  <a className='work-link' href='https://github.com/dianna-SE/aurora' target='blank'>VIEW SOURCE<BsFillArrowRightCircleFill className='work-logo'/></a>
               </div>
 
           </div>
